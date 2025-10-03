@@ -1,15 +1,110 @@
+body {
+  background: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #10606f;
+  font-weight: bold;
+}
+
 header {
   background: #222f3f;
 }
 
 header div > img {
-  width: 10%;
+  width: 122px;
 }
 
 header div {
-    padding: 10px;
+  padding: 0.6% 2.3%;
 }
 
 nav {
   background: #364759;
+  padding: 0.7% 2%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+section h3 {
+  background: #f56600;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  color: white;
+}
+
+.gift-guides {
+  background-image: url(../images/bg-image.png);
+  padding: 30px 200px;
+  margin: 30px;
+  text-align: center;
+}
+
+.gift-guides h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.4em;
+  padding: 50px 0px 10px 0;
+}
+.gift-guides p {
+  color: white;
+  font-weight: bold;
+  padding: 17px 0 20px 0;
+  font-size: large;
+}
+
+.perfect-gift {
+  margin: 30px;
+  background-color: white;
+  text-align: center;
+}
+.perfect-gift h4 {
+  padding: 20px 0px 0px 40px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.perfect-gift img {
+  width: 22%;
+  padding: 15px;
+  border-radius: 40px;
+  cursor: pointer;
+  height: 400px;
+  object-fit: cover;
+}
+
+.vr img {
+  width: 100%;
+  cursor: pointer;
+  height: 400px;
+}
+
+.vr {
+  margin: 30px;
+  text-align: center;
+}
+
+#back {
+  background: #364759;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+footer {
+  background: #222f3f;
+  text-align: center;
+  padding: 5%;
+}
+
+footer img {
+  width: 14%;
 }
