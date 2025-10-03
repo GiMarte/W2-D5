@@ -127,3 +127,24 @@ while (j < numericArray.length && numericArray[j] !== 32) {
 const charactersArray = ["g", "n", "u", "z", "d"];
 
 let newArr = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "g":
+      newArr.push(7);
+      break;
+    case "n":
+      newArr.push(12);
+      break;
+    case "u":
+      newArr.push(10);
+      break;
+    case "z":
+      newArr.push(21);
+      break;
+    case "d":
+      newArr.push(4);
+  }
+}
+
+console.log(newArr);
