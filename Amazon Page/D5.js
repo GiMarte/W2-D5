@@ -126,24 +126,89 @@ while (j < numericArray.length && numericArray[j] !== 32) {
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
 
-let newArr = [];
+const newArr = [];
 
+console.log("Esercizio 10:");
 for (let i = 0; i < charactersArray.length; i++) {
-  switch (charactersArray[i]) {
-    case "g":
-      newArr.push(7);
+  switch (charactersArray[i].toLowerCase()) {
+    case "a":
+      newArr.push(1);
       break;
-    case "n":
-      newArr.push(12);
+    case "b":
+      newArr.push(2);
       break;
-    case "u":
-      newArr.push(10);
-      break;
-    case "z":
-      newArr.push(21);
+    case "c":
+      newArr.push(3);
       break;
     case "d":
       newArr.push(4);
+      break;
+    case "e":
+      newArr.push(5);
+      break;
+    case "f":
+      newArr.push(6);
+      break;
+    case "g":
+      newArr.push(7);
+      break;
+    case "h":
+      newArr.push(8);
+      break;
+    case "i":
+      newArr.push(9);
+      break;
+    case "j":
+      newArr.push(10);
+      break;
+    case "k":
+      newArr.push(11);
+      break;
+    case "l":
+      newArr.push(12);
+      break;
+    case "m":
+      newArr.push(13);
+      break;
+    case "n":
+      newArr.push(14);
+      break;
+    case "o":
+      newArr.push(15);
+      break;
+    case "p":
+      newArr.push(16);
+      break;
+    case "q":
+      newArr.push(17);
+      break;
+    case "r":
+      newArr.push(18);
+      break;
+    case "s":
+      newArr.push(19);
+      break;
+    case "t":
+      newArr.push(20);
+      break;
+    case "u":
+      newArr.push(21);
+      break;
+    case "v":
+      newArr.push(22);
+      break;
+    case "w":
+      newArr.push(23);
+      break;
+    case "x":
+      newArr.push(24);
+      break;
+    case "y":
+      newArr.push(25);
+      break;
+    case "z":
+      newArr.push(26);
+      break;
   }
 }
 
