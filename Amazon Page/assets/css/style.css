@@ -1,0 +1,15 @@
+header {
+  background: #222f3f;
+}
+
+header div > img {
+  width: 10%;
+}
+
+header div {
+    padding: 10px;
+}
+
+nav {
+  background: #364759;
+}
